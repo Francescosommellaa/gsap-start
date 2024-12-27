@@ -41,24 +41,23 @@ const GsapTimeline = () => {
       <h1>GsapTimeline</h1>
 
       <p className="mt-5 text-gray-500">
-        The <code>gsap.timeline()</code> method is used to create a timeline
-        instance that can be used to manage multiple animations.
+        <code>gsap.timeline()</code> viene utilizzato per creare un&apos;istanza di timeline
+        che può essere usata per gestire più animazioni.
       </p>
 
       <p className="mt-5 text-gray-500">
-        The <code>gsap.timeline()</code> method is similar to the{" "}
-        <code>gsap.to()</code>, <code>gsap.from()</code>, and{" "}
-        <code>gsap.fromTo()</code> methods, but the difference is that the{" "}
-        <code>gsap.timeline()</code> method is used to create a timeline
-        instance that can be used to manage multiple animations, while the{" "}
-        <code>gsap.to()</code>, <code>gsap.from()</code>, and{" "}
-        <code>gsap.fromTo()</code> methods are used to animate elements from
-        their current state to a new state, from a new state to their current
-        state, and from a new state to a new state, respectively.
+        <code>gsap.timeline()</code> è simile al metodo{" "}
+        <code>gsap.to()</code>, <code>gsap.from()</code>, e{" "}
+        <code>gsap.fromTo()</code>, ma la differenze è che il metodo{" "}
+        <code>gsap.timeline()</code> viene utilizzato per creare un&apos;istanza di timeline
+        che può essere utilizzata per gestire più animazioni, mentre il metodo{" "}
+        <code>gsap.to()</code>, <code>gsap.from()</code>, e{" "}
+        <code>gsap.fromTo()</code> sono utilizzati per animare gli elementi dal
+        dal loro stato attuale a un nuovo stato, da un nuovo stato al loro stato attuale e da un nuovo stato a un nuovo stato.
       </p>
 
       <p className="mt-5 text-gray-500">
-        Read more about the{" "}
+        Per saperne di più sul metodo{" "}
         <a
           href="https://greensock.com/docs/v3/GSAP/gsap.timeline()"
           target="_blank"
@@ -66,7 +65,6 @@ const GsapTimeline = () => {
         >
           gsap.timeline()
         </a>{" "}
-        method.
       </p>
 
       <div className="mt-20 space-y-10">

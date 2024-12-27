@@ -24,22 +24,22 @@ const GsapFromTo = () => {
       <h1>GsapFromTo</h1>
 
       <p className="mt-5 text-gray-500">
-        The <code>gsap.fromTo()</code> method is used to animate elements from a
-        new state to a new state.
+        <code>gsap.fromTo()</code> viene utilizzato per animare gli elementi da un
+        nuovo stato a un nuovo stato
       </p>
 
       <p className="mt-5 text-gray-500">
-        The <code>gsap.fromTo()</code> method is similar to the{" "}
-        <code>gsap.from()</code> and <code>gsap.to()</code> methods, but the
-        difference is that the <code>gsap.fromTo()</code> method animates
-        elements from a new state to a new state, while the{" "}
-        <code>gsap.from()</code> method animates elements from a new state to
-        their current state, and the <code>gsap.to()</code> method animates
-        elements from their current state to a new state.
+        <code>gsap.fromTo()</code> è simile al metodo{" "}
+        <code>gsap.from()</code> e al metodo <code>gsap.to()</code> , ma la
+        differenza è che il metodo<code>gsap.fromTo()</code> anima
+        dal nuovo stato ad un altro nuovo stato, mentre il metodo{" "}
+        <code>gsap.from()</code> anima gli elementi da un nuovo stato al
+        al loro stato attuale e il metodo <code>gsap.to()</code> anima gli elementi
+        dal loro stato attuale a un nuovo stato.
       </p>
 
       <p className="mt-5 text-gray-500">
-        Read more about the{" "}
+        Per saperne di più sul metodo{" "}
         <a
           href="https://greensock.com/docs/v3/GSAP/gsap.fromTo()"
           target="_blank"
@@ -47,7 +47,6 @@ const GsapFromTo = () => {
         >
           gsap.fromTo()
         </a>{" "}
-        method.
       </p>
 
       <div className="mt-20">
